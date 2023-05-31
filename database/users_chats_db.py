@@ -119,7 +119,7 @@ class Database:
             'max_btn': MAX_BTN,
             'template': IMDB_TEMPLATE
         }
-        chat = await self.grp.find_one({'id':int_id})
+        chat = await self.grp.find_one({'id':int(id)})
         if chat:
             return chat.get('settings', default)
         return default
