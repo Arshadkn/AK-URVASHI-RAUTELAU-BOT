@@ -1130,7 +1130,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":
         buttons = [[
-                    InlineKeyboardButton('‡ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ‡', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('Mᴏᴠɪᴇ Gʀᴏᴜᴩ 1', url='https://t.me/MH_moviesgroup01'),
+
+InlineKeyboardButton('Mᴏᴠɪᴇ Gʀᴏᴜᴩ 2', url='https://t.me/MM_MalluMoviesGroup2')
                 ],[
                     InlineKeyboardButton('⌬ Oᴡɴᴇʀ ⌬', callback_data="owner_info"),
                     InlineKeyboardButton('🔍 Sᴇᴀʀᴄʜ 🔎', switch_inline_query_current_chat='')
@@ -1619,7 +1621,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "owner_info":
             btn = [[
                     InlineKeyboardButton("⌫ ʙᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("☎️Cᴏɴᴛᴀᴄᴛ☎️", url="t.me/LUTTAPPIxTG")
+                    InlineKeyboardButton("☎️Cᴏɴᴛᴀᴄᴛ☎️", url="t.me/psycho_009")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
