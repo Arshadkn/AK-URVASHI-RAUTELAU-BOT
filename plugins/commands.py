@@ -24,7 +24,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('Mᴏᴠɪᴇ Gʀᴏᴜᴩ 1', url='https://t.me/MH_moviesgroup01'),
 
-InlineKeyboardButton('Mᴏᴠɪᴇ Gʀᴏᴜᴩ 2', url='https://t.me/MM_MalluMoviesGroup2')
+                    InlineKeyboardButton('Mᴏᴠɪᴇ Gʀᴏᴜᴩ 2', url='https://t.me/MM_MalluMoviesGroup2')
                 ],[
                     InlineKeyboardButton('⌬ Oᴡɴᴇʀ ⌬', callback_data="owner_info"),
                     InlineKeyboardButton('🔍 Sᴇᴀʀᴄʜ 🔎', switch_inline_query_current_chat='')
@@ -55,7 +55,7 @@ InlineKeyboardButton('Mᴏᴠɪᴇ Gʀᴏᴜᴩ 2', url='https://t.me/MM_MalluMo
         buttons = [[
                     InlineKeyboardButton('Mᴏᴠɪᴇ Gʀᴏᴜᴩ 1', url='https://t.me/MH_moviesgroup01'),
 
-InlineKeyboardButton('Mᴏᴠɪᴇ Gʀᴏᴜᴩ 2', url='https://t.me/MM_MalluMoviesGroup2')
+                    InlineKeyboardButton('Mᴏᴠɪᴇ Gʀᴏᴜᴩ 2', url='https://t.me/MM_MalluMoviesGroup2')
                 ],[
                     InlineKeyboardButton('⌬ Oᴡɴᴇʀ ⌬', callback_data="owner_info"),
                     InlineKeyboardButton('🔍 Sᴇᴀʀᴄʜ 🔎', switch_inline_query_current_chat='')
@@ -104,9 +104,9 @@ InlineKeyboardButton('Mᴏᴠɪᴇ Gʀᴏᴜᴩ 2', url='https://t.me/MM_MalluMo
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-                    InlineKeyboardButton('Mᴏᴠɪᴇ Gʀᴏᴜᴩ 1', url=https://t.me/MH_moviesgroup01'),
+                    InlineKeyboardButton('Mᴏᴠɪᴇ Gʀᴏᴜᴩ 1', url='https://t.me/MH_moviesgroup01'),
 
-InlineKeyboardButton('Mᴏᴠɪᴇ Gʀᴏᴜᴩ 2', url=https://t.me/MM_MalluMoviesGroup2')
+                    InlineKeyboardButton('Mᴏᴠɪᴇ Gʀᴏᴜᴩ 2', url='https://t.me/MM_MalluMoviesGroup2')
                 ],[
                     InlineKeyboardButton('⌬ Oᴡɴᴇʀ ⌬', callback_data="owner_info"),                    InlineKeyboardButton('🔍 Sᴇᴀʀᴄʜ 🔎', switch_inline_query_current_chat='')
                 ],[
